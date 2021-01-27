@@ -13,3 +13,5 @@ A: Add environment variable `LOGGER_LEVEL` and set value to `5` to `gpu-manager.
 
 A: After v1.0.3, we use CRI interface to find cgroup path, so if your cgroup driver is not `cgroupfs`, you
 need to change the `EXTRA_FLAGS` of `gpu-manager.yaml`, add `--cgroup-driver` options, the possible options are `cgroupfs` or `systemd`.
+
+*4.* Q: At present, what types of nvidia cards are supported by gpu-manager container-level virtualization? For example: mainstream `RTX`, `GTX` and `Tesla` series mainstream cards `2080ti`, `3090`, `3080`, Thank you
